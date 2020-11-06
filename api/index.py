@@ -10,6 +10,6 @@ async def root():
     return {"message": "Hello World"}
 
 @app.get("/message")
-async def root():
+async def message():
     message = os.environ.get("message")
     return {"message": message}
