@@ -63,3 +63,13 @@ async def _():
 @app.get("/dummy3")
 async def _():
     return {"message": "Hello Dummy 3"}
+
+# Test Dummy Endpoint 4
+@app.get("/dummy4")
+async def _():
+    return {"message": "Hello Dummy 4"}
+
+# Test Dummy Endpoint 5
+@app.get("/dummy5")
+async def _():
+    return {"message": "Hello Dummy 5"}
